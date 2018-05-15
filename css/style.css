@@ -1,0 +1,367 @@
+@font-face {
+    font-family: "GothamPro";
+    src: url(/fonts/GothaProReg.otf);
+}
+
+@font-face {
+    font-family: "GothamPro-Med";
+    src: url(/fonts/GothaProMed.otf);
+}
+@font-face {
+    font-family: "GothamPro-Bol";
+    src: url(/fonts/GothaProBol.otf);
+}
+body {
+    background-color: #F5F7FA;
+    font-family: "GothamPro";
+    font-size: 14px;
+
+}
+.container {
+    box-shadow: 0 2px 12px rgba(96,96,96,0.1); 
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header {
+    margin-bottom: 15px;  
+} 
+header img {
+    margin: 10px 20px 10px 20px;
+}
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E2E2E2;
+}
+.language a{
+    color: #9E9C9C;
+}
+.btn-top {
+    background-color: #26C644;
+    color: white;
+    text-align: center;
+    padding: 15px 50px 15px 50px;
+    line-height: 16px;
+}
+
+.btn-top a {
+    color: white;
+    text-decoration: none;
+}
+header p {
+    text-transform: uppercase;
+    display: inline;
+}
+
+header form {
+    position: relative;
+    width: 300px;
+    margin-right: 30px;
+  }
+
+header input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid #9F9F9F;
+    outline: none;
+    color: #9E9C9C;
+}
+header form button {
+    position: absolute; 
+    top: 0;
+    right: 0px;
+    border: none;
+    cursor: pointer;
+    color: #9E9C9C;
+    background-color: white;
+
+}
+header form button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+}
+
+nav {
+      font-size: 18px;
+      
+      background-color: white;
+  }
+nav a {
+    color: #222222;
+}
+nav ul {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+  }
+.navbar-brand {
+    display: none;
+}
+.navbar-heading-mobile {
+    display: none;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+.questions {
+    padding: 30px 30px 0 30px;
+}
+.quastion-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.quastion-heading a {
+    font-size: 18px;
+}
+
+form {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid #13B770;
+    outline: none;
+    color: #9E9C9C;
+}
+form button {
+    position: absolute; 
+    top: 0;
+    right: 0px;
+    border: none;
+    cursor: pointer;
+    color: #9E9C9C;
+    background-color: white;
+
+}
+form button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 22px;
+}
+.category-list {
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.category-list span {
+    border-radius: 50px;
+    border: 1px solid #A4A4A4;
+    color: #A4A4A4;
+    padding: 5px 20px 5px 20px;
+    margin-right: 15px;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+.category-list span a {
+    color: #A4A4A4;
+    text-decoration: none;
+}
+.category-list span a:hover {
+    color: #000000;
+}
+.category-list span a:active {
+    color: #000000;
+}
+.category-list span:hover {
+    background-color: #f4f5fb;
+    border-color: #13B770;
+}
+.category-list span:active {
+    background-color: #f4f5fb;
+    border-color: #13B770;
+}
+.main-bg {
+    position: absolute;
+    right: 0;
+}
+.main {
+    padding: 30px 30px 0 30px;
+    position: relative;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+h3 {
+    font-size: 20px;
+    line-height: 26px;
+}
+.card {
+    border-color: #A394D3;
+}
+.card-deck {
+    margin-bottom: 30px;
+}
+.card-purple {
+    background-color: #A394D3;
+    color: white;
+}
+.card-purple-text {
+    color: white; 
+}
+.card-footer {
+    border: none;
+}
+.card-footer-purple {
+    border-top: 1px solid white;
+}
+
+.card-blue {
+    border-color: #43B5ED;
+}
+.card-blue-bg {
+    background-color: #43B5ED;
+}
+.card-footer-blue {
+    background-color: #F4FBFE;
+}
+
+.text-muted {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.text-muted span {
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.show-more {
+    text-align: center;
+}
+.show-more a {
+    font-size:16px;
+    color: #A4A4A4;
+}
+.question-big {
+    text-align: center;
+    padding: 30px;
+}
+.question-big-bg {
+    background: url(/images/new-stain.png) no-repeat center top;
+}
+.form-control {
+    display: inline;
+}
+textarea {
+    max-width: 650px;
+    color: #BABABA;
+    font-size: 20px;
+    
+}
+.btn-question {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 0;
+    border-color: #26C644;
+    color: #26C644;
+    position: static;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 70px 10px 70px;
+}
+.btn-question:before {
+    content: "";
+}
+.btn-question:hover {
+    background-color: #26C644;
+    border-color: #26C644;
+}
+.btn-question:active {
+    background-color: #26C644;
+    border-color: #26C644;
+}
+.btn-question:focus {
+    background-color: #26C644;
+    border-color: #26C644;
+}
+footer {
+    background-color: #F1F2F2;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+}
+footer img {
+    margin: 30px;
+}
+.footer-logo {
+    display: inline;
+}
+.footer-logo-mobile {
+    display: none;
+}
+.footer-text {
+    margin: 40px 10px 10px 40px;
+}
+.footer-text-blue {
+    color: #5096C7;
+    line-height: 16px;
+    font-family: "GothamPro-Med";
+}
+footer span {
+    display: block;
+}
+.copyright {
+    font-family: "GothamPro-Bol";
+}
+.footer-text-gray {
+    color: rgba(0,0,0,.5);
+    font-family: "GothamPro-Med";
+    line-height: 16px;
+}
+.underline {
+    text-decoration: underline;
+    font-family: "GothamPro-Bol";
+}
+
+@media (max-width: 990px ){  
+    .navbar-brand {
+        display: inline;
+    }
+    .navbar-heading-mobile {
+        display: inline;
+        text-align: left;
+    }
+    .header-top {
+        display: none;
+    }
+    .footer-logo {
+        display: none;
+    }
+    .footer-logo-mobile {
+        display: inline;
+    }
+    .footer-text {
+        display: none;
+    }
+
+  }
+@media (max-width: 770px ){
+    .navbar-heading-mobile {
+        display: none;
+    }
+}
+/* @media (max-width: 570px ){
+    .main-garbage-bg {
+        background: none;
+    }
+} */
